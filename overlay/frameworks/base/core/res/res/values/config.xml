@@ -534,9 +534,9 @@
          -->
     
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height">32.0dp</dimen>
-    <dimen name="status_bar_height_portrait">32.0dp</dimen>
-    <dimen name="status_bar_height_landscape">32.0dp</dimen>
+    <dimen name="status_bar_height_portrait">32dp</dimen>
+    <dimen name="status_bar_height_landscape">28dp</dimen>
+    <dimen name="rounded_corner_radius_top">96px</dimen>
 
  <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M-303,0
@@ -558,6 +558,11 @@
         C-297.156539,0.363960295 -299.941007,0 -303,0
         Z
     </string>
+
+    <!-- Height of area above QQS where battery/time go (equal to status bar height if > 48dp) -->
+    <dimen name="quick_qs_offset_height">32dp</dimen>
+    <!-- Total height of QQS (quick_qs_offset_height + 128) -->
+    <dimen name="quick_qs_total_height">160dp</dimen>
 
     <!-- Whether to show battery percentage inside icon -->
     <bool name="config_battery_percentage_show_inside_icon">true</bool>
