@@ -578,5 +578,8 @@
 
    <!-- Whether to enable smart clock feature -->
     <bool name="config_enableSmartClock">true</bool>
+    
+   <!-- Whether to show multiuser icon on keyguard -->
+    <bool name="config_showMultiuserIconKeyguard">false</bool>
 
  </resources>	
