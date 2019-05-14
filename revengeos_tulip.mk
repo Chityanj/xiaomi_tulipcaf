@@ -24,7 +24,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/tulip.mk)
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
 # Inherit some common Mokee stuff.
-$(call inherit-product, vendor/revengeos/config/common_full_phone.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
